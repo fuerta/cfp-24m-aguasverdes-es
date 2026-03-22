@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apartamento 24M | Aguas Verdes - My Fuerta Ltd.</title>
+    
+    <meta property="og:title" content="Apartamento 24M - Aguas Verdes, Fuerteventura">
+    <meta property="og:description" content="Alojamiento vacacional premium gestionado en exclusiva por My Fuerta Ltd.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1200">
+    <meta property="og:url" content="https://24m.aguasverdes.es">
+    
+    <style>
+        /* Modern CSS Reset */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --primary-bg: #fdfdfd;
+            --text-main: #2d3436;
+            --text-secondary: #636e72;
+            --accent-color: #0984e3;
+            --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            --border-color: #dfe6e9;
+        }
+
+        html, body {
+            height: 100%;
+            font-family: var(--font-family);
+            color: var(--text-main);
+            background-color: var(--primary-bg);
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* --- 1. Main Visual Area --- */
+        main {
+            flex: 1 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            /* Premium interior/balcony placeholder image */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=2000&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+        .glass-panel {
+            padding: 3.5rem 4rem;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            backdrop-filter: blur(10px);
+            text-align: center;
+            border-top: 4px solid var(--accent-color);
+        }
+        
+        .unit-badge {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: white;
+            padding: 0.3rem 1rem;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            font-weight: 700;
+            font-size: 2.5rem;
+            letter-spacing: -0.5px;
+            margin-bottom: 0.5rem;
+            color: var(--text-main);
+        }
+        
+        p.subtitle {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        /* --- 2. The Ironclad Legal Footer --- */
+        footer {
+            flex-shrink: 0;
+            background-color: #ffffff;
+            padding: 2.5rem 1.5rem;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+        }
+
+        .disclaimer-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        p.disclaimer-text {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            line-height: 1.5;
+        }
+        
+        p.company-text {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            opacity: 0.8;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Mobile Optimization */
+        @media (max-width: 600px) {
+            .glass-panel { padding: 2rem; width: 90%; }
+            h1 { font-size: 2rem; }
+            footer { padding: 1.5rem 1rem; }
+            p.disclaimer-text { font-size: 0.85rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <div class="glass-panel">
+            <div class="unit-badge">Unidad 24M</div>
+            <h1>Aguas Verdes</h1>
+            <p class="subtitle">Gestión Exclusiva por My Fuerta Ltd.</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="disclaimer-container">
+            <p class="disclaimer-text">
+                Esta página web es propiedad de una empresa privada de gestión vacacional y no tiene ninguna afiliación oficial, legal o representativa con la Comunidad de Propietarios de la Urbanización Aguas Verdes.
+            </p>
+            <p class="company-text">
+                © 2026 My Fuerta Ltd. | Fuerteventura, Canarias.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
